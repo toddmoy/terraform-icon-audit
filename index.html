@@ -1,0 +1,390 @@
+<html>
+  <head>
+    <link ref="stylesheet" href="./tachyons/css/tachyon.min.css" />
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0.5em;
+      }
+
+      .row:nth-of-type(even) {
+        background-color: rgba(0, 0, 0, 0.02);
+      }
+      .row:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      img {
+        max-width: 2em;
+        max-height: 2em;
+        display: block;
+        border: solid rgba(0, 0, 0, 0.2) 1px;
+      }
+      img:after {
+        content: 'hi';
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="row"
+      style="position: sticky; top: 0; background-color: rgba(255, 255, 255, 0.9)"
+    >
+      <p>Atlas</p>
+      <p>Structure</p>
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/add.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/plus-plain.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/ado.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/bitbucket.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/bolt.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/cancel-square-outline.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/cancel-square-outline.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/cancel.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/cancel-square-fill.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/check-circle-fill.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/check-circle-fill.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/check-circle-outline.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/check-circle-outline.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/checkmark.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/check-plain.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/chevron-down.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/chevron-down.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/chevron-right.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/chevron-right.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/chevron-up.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/chevron-up.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/clock.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/clock-outline.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/collapse.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/expand-less.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/delete.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/trash.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/disabled.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/disabled.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/download.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/download.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/edit.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/edit.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/error.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/cancel-circle-fill.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/exit.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/exit.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/expand.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/expand-more.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/explanation.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/file.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/filter.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/filter.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/fold-in.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/unfold-less.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/fold-out.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/unfold-more.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/github.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/gitlab.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/help-circle-outline.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/help-circle-outline.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/hexagon-loader.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/loading.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/horizontal-ellipsis.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/more-horizontal.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/info.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/info-circle-outline.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/lock.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/lock-closed.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/logo_slack-large.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/logo_slack-small.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/logo_webhook-large.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/logo_webhook-small.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/minus.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/minus-plain.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/pending.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/premium.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/user-organization.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/pro.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/user-team.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/queue-plan.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/queue.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/repo.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/git-repository.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/running.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/run.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/scroll-bottom.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/scroll-top.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/search.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/search.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/settings.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/settings.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/sort.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/swap-vertical.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/success.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/check-circle-fill.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/times.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/cancel-plain.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/trial.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/user-organization.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/user-organization.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/user-suspended.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/user-team.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/user-team.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/user.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/user-plain.svg" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/visibility-hide.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/visibility-hide.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/visibility-show.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/visibility-show.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/warning.svg" />
+      <img
+        src="node_modules/@hashicorp/structure-icons/dist/alert-triangle.svg"
+      />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-current-1.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-current-2.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-current-3.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-current-4.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-current-5.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-done.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-pending-1.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-pending-2.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-pending-3.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-pending-4.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-pending-5.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/icons/wizard/step-skipped.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/hashicorp-logo.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/terraform-cloud-logo.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/terraform-enterprise-logo.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/terraform-logo-white.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+    <div class="row">
+      <img src="atlas-icons/svgs/tfe-logo.svg" />
+      <img src="node_modules/@hashicorp/structure-icons/dist/" />
+    </div>
+  </body>
+</html>

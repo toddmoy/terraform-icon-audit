@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>step-pending-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="step-pending-3" points="22 6.104 11.151 1.08357767e-13 0 5.957 0 18.429 11.151 24.385 22 18.155"></polygon>
+        <filter x="-11.4%" y="-10.5%" width="122.7%" height="137.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.9405   0 0 0 0 0.944458333   0 0 0 0 0.95  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-----↳-Create" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Workspace-(Microstates)" transform="translate(-964.000000, -691.000000)">
+            <g id="step-pending-3" transform="translate(965.000000, 692.000000)">
+                <g id="Fill-2-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#step-pending-3"></use>
+                    <use stroke="#BBC4D1" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#step-pending-3"></use>
+                </g>
+                <path d="M9.76132812,12.6208984 L9.76132812,11.1926758 L10.8785156,11.1926758 C11.7481445,11.1926758 12.3384766,10.6848633 12.3384766,9.93583984 C12.3384766,9.19951172 11.7671875,8.72978516 10.872168,8.72978516 C9.98349609,8.72978516 9.39316406,9.23125 9.34238281,10.024707 L7.57138672,10.024707 C7.63486328,8.29179687 8.9234375,7.2 10.9229492,7.2 C12.8018555,7.2 14.1539062,8.22832031 14.1539062,9.66923828 C14.1539062,10.7292969 13.4874023,11.5544922 12.4654297,11.7639648 L12.4654297,11.8782227 C13.7222656,12.0178711 14.509375,12.8557617 14.509375,14.0618164 C14.509375,15.6677734 12.9986328,16.8293945 10.9102539,16.8293945 C8.86630859,16.8293945 7.48251953,15.6995117 7.4,13.9729492 L9.23447266,13.9729492 C9.29160156,14.7473633 9.94541016,15.2361328 10.9292969,15.2361328 C11.887793,15.2361328 12.5542969,14.696582 12.5542969,13.9158203 C12.5542969,13.1160156 11.9258789,12.6208984 10.8975586,12.6208984 L9.76132812,12.6208984 Z" id="3" fill="#9FA7B3" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

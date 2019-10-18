@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>step-pending-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="step-pending-4" points="22 6.104 11.151 1.08357767e-13 0 5.957 0 18.429 11.151 24.385 22 18.155"></polygon>
+        <filter x="-11.4%" y="-10.5%" width="122.7%" height="137.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.9405   0 0 0 0 0.944458333   0 0 0 0 0.95  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-----↳-Create" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Workspace-(Microstates)" transform="translate(-964.000000, -731.000000)">
+            <g id="step-pending-4" transform="translate(965.000000, 732.000000)">
+                <g id="Fill-2-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#step-pending-4"></use>
+                    <use stroke="#BBC4D1" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#step-pending-4"></use>
+                </g>
+                <path d="M10.9814453,16.659668 L10.9814453,15.0600586 L6.5,15.0600586 L6.5,13.3652344 C7.32519531,11.8100586 8.51855469,9.91845703 10.1245117,7.5 L12.8095703,7.5 L12.8095703,13.4667969 L14.0092773,13.4667969 L14.0092773,15.0600586 L12.8095703,15.0600586 L12.8095703,16.659668 L10.9814453,16.659668 Z M8.22021484,13.4223633 L8.22021484,13.5239258 L11.0258789,13.5239258 L11.0258789,8.99169922 L10.9243164,8.99169922 C10.0864258,10.2421875 9.26757812,11.5244141 8.22021484,13.4223633 Z" id="4" fill="#9FA7B3" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
