@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hashicorp/structure-icons": "^1.3.0",
-    "normalize-css": "^2.3.1",
-    "tachyons": "^4.11.1"
+    "@hashicorp/structure-icons": "^1.3.0"
   }
 }
